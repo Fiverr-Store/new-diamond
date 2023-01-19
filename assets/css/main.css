@@ -380,6 +380,9 @@ h6 a {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+.navbar-area .container {
+  max-width: 1500px;
+}
 
 .logo-text {
   font-family: "Chakra Petch", sans-serif;
@@ -445,7 +448,7 @@ h6 a {
 }
 .navbar .navbar-nav .nav-item {
   position: relative;
-  margin-left: 24px;
+  margin-left: 20px;
 }
 @media only screen and (max-width: 991px) {
   .navbar .navbar-nav .nav-item {
@@ -490,7 +493,7 @@ h6 a {
   }
 }
 .navbar .navbar-nav .nav-item a.btn-nav {
-  padding: 7px 18px !important;
+  padding: 7px 14px !important;
   background: linear-gradient(103.39deg, #7452bd 17.02%, #1a68ff 127.4%);
   border-radius: 7px;
   -webkit-transition: all 0.2s ease-in;
@@ -500,6 +503,15 @@ h6 a {
   -webkit-box-shadow: 0 3px 20px 0px rgba(95, 167, 250, 0.52);
           box-shadow: 0 3px 20px 0px rgba(95, 167, 250, 0.52);
   color: #fff;
+}
+.navbar .navbar-nav .nav-item a.btn-nav.btn-nav-2 {
+  color: #000000;
+  background: linear-gradient(30.17deg, #eaa6ab 44.41%, #9bb4f3 108.93%, rgba(217, 217, 217, 0) 108.93%);
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav .nav-item a.btn-nav.btn-nav-2 {
+    margin-top: 12px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .navbar .navbar-collapse {
